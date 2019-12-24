@@ -1,0 +1,17 @@
+# port
+server:
+  port: 8080
+
+# rabbitmq
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: test
+    password: 123456
+    virtual-host: /test
+
+# rabbit config
+key: 123
+queue: amqp-queue-test
+exchange: amqp-exchange-test
