@@ -5,7 +5,7 @@
         <!-- 日志文件 -->
         <Property name="FILE_NAME">/Users/mjj/logs/rabbitmq/amqp-consumer.log</Property>
         <!-- 日志压缩文件 -->
-        <Property name="FILE_PATTERN">/Users/mjj/logs/rabbitmq/amqp-consumer%d{yyyy-MM-dd}.log.gz</Property>
+        <Property name="FILE_PATTERN">/Users/mjj/logs/rabbitmq/amqp-consumer-%d{yyyy-MM-dd}.log.gz</Property>
         <!-- 日志样式 -->
         <Property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %logger{40} - %msg%n</Property>
     </Properties>
