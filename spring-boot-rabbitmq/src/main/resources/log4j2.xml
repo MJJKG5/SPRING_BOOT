@@ -3,9 +3,9 @@
 <Configuration status="INFO" monitorInterval="30">
     <Properties>
         <!-- 日志文件 -->
-        <Property name="FILE_NAME">/Users/mjj/logs/rabbitmq/amqp-provider.log</Property>
+        <Property name="FILE_NAME">/Users/mjj/logs/rabbitmq/rabbitmq.log</Property>
         <!-- 日志压缩文件 -->
-        <Property name="FILE_PATTERN">/Users/mjj/logs/rabbitmq/amqp-provider-%d{yyyy-MM-dd}.log.gz</Property>
+        <Property name="FILE_PATTERN">/Users/mjj/logs/rabbitmq/rabbitmq-%d{yyyy-MM-dd}.log.gz</Property>
         <!-- 日志样式 -->
         <Property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %logger{40} - %msg%n</Property>
     </Properties>
