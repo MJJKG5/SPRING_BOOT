@@ -54,8 +54,8 @@ public class AmqpListener {
             // deliveryTag 编号(最大值 ： 9223372036854775807)
             // multiple true：拒收小于编号的所有消息(批量)；false：拒收该编号的消息
             // requeue true：消息存入队列(方便发送给其它订阅者)；false：消息从列队中删除(不会发送给其它订阅者)
-            channel.basicNack(deliveryTag, false, true);
-            logger.info("结果：消息拒收 编号：" + deliveryTag + " 拒收原因：消息处理过程中出现异常，已将其放回原有列队中！！！");
+//            channel.basicNack(deliveryTag, false, true);
+//            logger.info("结果：消息拒收 编号：" + deliveryTag + " 拒收原因：消息处理过程中出现异常，已将其放回原有列队中！！！");
             logger.error(e.getMessage(), e);
         }
     }
